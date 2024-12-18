@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css" />
+	<title>
+		Manual Tutor
+	</title>
+</head>
+
+<body>
+	<div id="sideMenu" class="sideMenu">
+		<a href="javascript:void(0)"
+			class="closeBtn"
+			onclick="closeNav()">×</a>
+		<div class="mainMenu">
+			<h2>Edulabs</h2>
+            <h3>Manual para rol de tutor en Moodle</h3>
+			<a href="#sec1">Configuracion del curso</a>
+			<a  href="#sec2">Matricula del curso</a>
+			<a href="#sec3">Clasificación</a>
+			<a href="#sec4">Seguimiento del progreso</a>
+		</div>
+	</div>
+	
+	<div id="contentArea">
+		<span style="font-size: 30px; cursor: pointer"
+			onclick="openNav()">☰</span>
+		<div class="contentText">
+            <section id="inicio" class="sectionStyle">
+                <h2>Guía rápida para tutores</h2>
+                
+                <p>En Moodle, un tutor tiene la responsabilidad de los materiales de su propio curso. A menudo también gestionan las inscripciones y pueden cambiar el diseño de la página del curso. Esta guía de inicio rápido presenta las características de Moodle a aquellos con el rol de Maestro.</p>
+                <!-- VIDEO O IMAGEN -->
+                <div style="width: 100%; height:max-content; display: flex; justify-content: center; padding-top: 5rem;">
+                    <div style="width:400px; display: flex; align-items: center; justify-content: center; height:250px; background-color: #9a9e9c; color:black">video</div>
+                </div>
+            </section>
+            <section id="sec1" class="sectionStyle">
+                <h2 >Configuración del curso</h2>
+                <p>Un curso es un espacio en un sitio Moodle donde los profesores pueden agregar materiales de aprendizaje para sus estudiantes. Un profesor puede tener más de un curso y un curso puede incluir más de un profesor y más de un grupo de alumnos. Ver el screencast <a href="#">¿Qué es un curso?</a>.</p>
+
+                <p>De forma predeterminada, un profesor regular no puede agregar un nuevo curso. Consulte <a href="#">Agregar un nuevo curso</a> para obtener información sobre cómo se pueden crear los cursos.</p>
+                <!-- VIDEO O IMAGEN -->
+                <div style="width: 100%; height:max-content; display: flex; justify-content: center; padding-top: 5rem;">
+                    <div style="width:400px; display: flex; align-items: center; justify-content: center; height:250px; background-color: #9a9e9c; color:black">imagen</div>
+                </div>
+
+                <p>Un curso puede mostrar sus materiales de varias maneras o "formatos", por ejemplo, en secciones semanales o secciones de temas con nombre. Puede mostrar todas las secciones a la vez o solo mostrar una a la vez. Consulte <a href="#">Configuración del curso</a> para obtener más información, o vea el diseño del curso en pantalla.</p>
+
+                <p>Las secciones del curso se pueden cambiar activando la edición y haciendo clic en el icono de configuración debajo del nombre de la sección. Las secciones también se pueden mover arrastrando y soltando, y las secciones se pueden agregar o eliminar haciendo clic en + o - debajo de la sección inferior. Consulte la página de inicio del curso para obtener más información.</p>
+
+                <p>También puedes añadir elementos, conocidos como "bloques", a la derecha, a la izquierda o a ambos lados de tu área central de aprendizaje, dependiendo de tu tema. Para obtener más información, consulte <a href="#">Bloques</a>.</p>
+            </section>
+            <section id="sec2" class="sectionStyle">
+                <h2>Matrícula del curso</h2>
+                <p>Antes de que un alumno pueda acceder a su curso, primero debe autenticarse en el sitio y esa es la responsabilidad del administrador del sitio.</p>
+            
+                <p>Hay varios métodos de inscripción disponibles para un profesor, lo que está disponible, nuevamente, depende del administrador del sitio. El administrador puede inscribir a los estudiantes en el curso automáticamente, o el profesor puede permitir que los estudiantes se inscriban ellos mismos. Este es el método de inscripción manual. Otras opciones se pueden ver en el enlace <a href="#">Métodos de inscripción</a> e incluyen Autoinscripción y Acceso de invitado.</p>
+            
+                <div class="note">
+                    <p><strong>Nota:</strong> Los invitados solo pueden ver el curso y sus recursos; No pueden participar en ninguna actividad.</p>
+                </div>
+            
+                <p>Se puede establecer una clave de inscripción si la autoinscripción está habilitada para que solo los estudiantes con la clave puedan ingresar. El screencast <a href="#">Dar acceso al curso a los alumnos</a> ofrece más información sobre la inscripción en el curso.</p>
+            </section>
+            <section id="sec3" class="sectionStyle">
+                <h2>Clasificación</h2>
+                <p>Cada curso tiene su propio libro de calificaciones que puede registrar las puntuaciones de las tareas, los cuestionarios, los talleres de evaluación entre pares, las lecciones "ramificadas", las actividades SCORM y los recursos de aprendizaje de LTI.</p>
+                <p>Otras actividades, como foros, bases de datos y glosarios, pueden tener habilitadas las calificaciones, que también se reflejarán en el libro de calificaciones.</p>
+            
+                <p>Los elementos de calificación se pueden crear manualmente desde la navegación del curso &gt; Configuración de calificaciones &gt; Libro de calificaciones, haciendo clic en Agregar a la derecha y seleccionando <strong>Agregar elemento de calificación</strong>. También es posible importar y exportar grados.</p>
+            </section>
+            <section id="sec4" class="sectionStyle">
+                <h2>Seguimiento del progreso</h2>
+                <p>Si se ha habilitado el seguimiento de finalización para el sitio y en la navegación del curso &gt; Configuración, puede establecer las condiciones de finalización en la configuración de la actividad. Aparecerá un botón con información sobre los requisitos de finalización a la derecha de la actividad y se le puede permitir a un estudiante verificarlo manualmente, o el elemento se mostrará completo una vez que se hayan cumplido los criterios para esa actividad en particular.</p>
+            
+                <p>Los indicadores de finalización (círculos) se muestran en el índice del curso y reflejan el estado de finalización de cada actividad, para una verificación rápida.</p>
+            
+                <p>Esta función se puede combinar con la finalización del curso, de modo que cuando se hayan completado ciertas actividades y/o se hayan obtenido calificaciones, el curso en sí se marque como completado.</p>
+            
+                <p>Las insignias también se pueden emitir, manualmente o en función de los criterios de finalización para actuar como motivador y registrar el progreso del curso.</p>        
+                <!-- VIDEO O IMAGEN -->
+                <div style="width: 100%; height:max-content; display: flex; justify-content: center; padding-top: 5rem;">
+                    <div style="width:400px; display: flex; align-items: center; justify-content: center; height:250px; background-color: #9a9e9c; color:black">video</div>
+                </div>
+            </section>
+        </div>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
